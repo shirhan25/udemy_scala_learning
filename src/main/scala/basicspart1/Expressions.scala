@@ -82,4 +82,20 @@ val aCodeBlock = {
 println(aCodeBlock)
 
 //val anotherValue = z+1;
+
+//Questions
+//Difference between "hello world" vs println("hello world")?
+//println("hello world") is an unit and "hello world" is a string (literal)
+//println("hello world") - side effect of print hello world.
+//what is the value of these?
+val someValue= (
+  2<3
+);
+//value is true
+
+val someOtherValue = {
+  if(someValue) 239 else 986
+  42
+}
+//if expression is irrelevant and the value is 42, as the value of the block is the last expiression
 }
